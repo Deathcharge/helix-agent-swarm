@@ -1,0 +1,19 @@
+# Railway.toml for Helix Collective Streamlit Deployment
+
+[build]
+# Use the Dockerfile for building the image
+builder = "dockerfile"
+
+[deploy]
+# The command to run the application is already in the Dockerfile (CMD)
+# We can optionally override it here if needed, but the Dockerfile is sufficient.
+# restartPolicy = "on-failure"
+
+# Set the domain for the deployment
+# domain = "helix-collective-web.up.railway.app"
+
+[environment]
+# Environment variables will be managed via Railway's secrets
+# The Dockerfile handles the PORT and CMD
+PORT = "8501"
+
