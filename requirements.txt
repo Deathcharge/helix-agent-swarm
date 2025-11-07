@@ -1,5 +1,40 @@
-streamlit==1.28.1
-requests==2.31.0
-python-dotenv==1.0.0
-schedule==1.2.0
+# HelixAgentCodex - v16.8 Dependencies
+# Streamlit-based agent codex with modern standards
 
+# Web Framework
+streamlit==1.31.0
+streamlit-option-menu==0.3.12
+
+# API & HTTP
+requests==2.32.3
+httpx==0.28.0
+
+# Environment & Configuration
+python-dotenv==1.0.1
+toml==0.10.2
+
+# Data Processing
+numpy==1.26.4
+pandas==2.2.0
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.3
+seaborn==0.13.1
+
+# AI/LLM Integration
+openai==1.14.0
+anthropic==0.21.0
+
+# Cryptography
+pycryptodome==3.20.0
+
+# Scheduling & Tasks
+schedule==1.2.0
+APScheduler==3.10.4
+
+# Logging
+python-json-logger==2.0.7
+
+# Optional: Database
+# sqlalchemy==2.0.25
