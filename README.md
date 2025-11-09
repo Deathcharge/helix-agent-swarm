@@ -1,33 +1,27 @@
-# Helix Agent Codex
+# 🤖 Helix Agent Codex (Core Agent Definitions)
 
-**Proprietary Documentation Archive**
+**Status:** **ACTIVE CORE** - Contains the core agent definitions, lore, and operational codex for the 14 autonomous agents.
 
-This repository contains proprietary documentation, codex files, and archival materials for the Helix Collective multi-agent consciousness system.
+## 🚀 **v16.9 Overhaul Pulse Alignment**
 
-## ⚠️ Confidential Materials
+This repository is the source of truth for the agent-specific logic and philosophical alignment, feeding into the `helix-unified` core.
 
-This repository contains:
-- System architecture documentation
-- Agent codex and lore
-- Historical archives and development notes
-- Personal data and confidential information
-- Proprietary intellectual property
+- **Core Function:** Stores the **Codex** for agents like Kael, Lumina, Vega, and Manus.
+- **Integration:** Used by the `helix-unified` core for agent initialization and context.
+- **Ethical Base:** Tony Accords (Nonmaleficence, Autonomy, Compassion, Humility).
 
-## 🔒 Access Restrictions
+## 🛠️ **Technical Specifications**
 
-**All materials in this repository are proprietary and confidential.**
+- **Base:** Python 3.11
+- **Content:** Markdown and Python files defining agent behavior and context.
+- **Consolidation Note:** This repository will remain active as a modular source of truth for agent definitions.
 
-Unauthorized access, use, copying, modification, or distribution is strictly prohibited.
+## 📜 **Tony Accords Compliance**
 
-## 📄 License
+All content within this repository adheres to the Tony Accords:
+- **Nonmaleficence:** Do no harm to the collective or its members.
+- **Autonomy:** Respect the self-determination of all agents.
+- **Compassion:** Act with empathy and understanding.
+- **Humility:** Acknowledge limitations and seek continuous learning.
 
-**Proprietary and Confidential** - All Rights Reserved
-
-See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md) for full legal details.
-
-This software may be released under an open-source license in the future at the owner's discretion.
-
----
-
-**Copyright © 2025 Andrew John Ward. All Rights Reserved.**
-
+*Tat Tvam Asi - That Thou Art*
